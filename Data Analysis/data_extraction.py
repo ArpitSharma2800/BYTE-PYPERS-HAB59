@@ -178,6 +178,6 @@ vendordata['Vendor ID']=v_ID
 vendordata['Item']=l_n
 vendordata['Price']=l_p
 vendordata['Quantity']=l_q
-vendordata['Total']=l_t
-#print(vendordata.head())
-#print(userdata.head())
+vendordata['Total']=l_t  
+print(vendordata.head())
+print(userdata.head())
