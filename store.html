@@ -265,7 +265,8 @@
                                     <div class="modal-dialog">
                                         <div class="modal-content">
                                             <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel">Schedule Delivery</h5>
+                                                <h5 class="modal-title" id="exampleModalLabel">Schedule Delivery
+                                                </h5>
                                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin: 0; padding: 0;">
                                                     <span aria-hidden="true">&times;</span>
                                                 </button>
@@ -333,34 +334,13 @@
                                                     </ul>
                                                 </div> -->
 
-                                                <form>
+                                                <form id="deliveryForm">
                                                     <div class="form-group">
-                                                        <input type="text" class="form-control" placeholder="Name">
-                                                        <input type="text" class="form-control" placeholder="Mobile Number">
-                                                        <textarea name="add" id="address" placeholder="Address"></textarea>
-                                                        <div class="container">
-                                                            <div class="row justify-content-center">
-                                                                <div class="col-sm-6">
-                                                                    <div class="form-group">
-                                                                        <div class="input-group date" id="datetimepicker5" data-target-input="nearest">
-                                                                            <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker5" placeholder="Select Date" />
-                                                                            <div class="input-group-append" data-target="#datetimepicker5" data-toggle="datetimepicker">
-                                                                                <div class="input-group-text"><i class="fa fa-calendar"></i>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <script type="text/javascript">
-                                                                    $(function() {
-                                                                        $('#datetimepicker5').datetimepicker({
-                                                                            format: 'DD-MM-YYYY'
-                                                                        });
-                                                                    });
-                                                                </script>
-                                                            </div>
-                                                        </div>
-                                                        <select class="custom-select">
+                                                        <input type="text" class="form-control" placeholder="Name" id="deliveryName">
+                                                        <input type="text" class="form-control" placeholder="Mobile Number" id="deliveryMobile">
+                                                        <textarea name="add" placeholder="Address" id="deliveryAddress"></textarea>
+
+                                                        <select class="custom-select" id="deliveryTime">
                                                             <option selected>Select Time Slot</option>
                                                             <option value="1">01:00 P.M.</option>
                                                             <option value="2">02:00 P.M.</option>
@@ -389,7 +369,6 @@
             </div>
         </div>
     </div>
-
 
 
     <script src="js/userlisting.js"></script>
