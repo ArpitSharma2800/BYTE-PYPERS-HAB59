@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+# BYTE-PYPERS-HAB59
+HAB 59 hackathon-Business App
+=======
 **All Readme commits have been removed for the sake of verification.PLEASE HEAD OVER TO OUR INDIVIDUAL BRANCHES TO CHECK THE COMMIT HISTORIES, due to some strange reasons we are NOT able to generate a PULL REQUEST.**
 
 # 🤖BYTE-PYPERS-HAB59💻
@@ -74,3 +78,4 @@
 
 
 
+>>>>>>> eb746c51523b547ed6f4aa9c3e99fc34319ccaec
