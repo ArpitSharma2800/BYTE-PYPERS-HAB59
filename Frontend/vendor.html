@@ -129,9 +129,28 @@
         </div>
     </div>
 
+
+
     <script src="js/vendorsidelisting.js"></script>
     <script src="js/vendor.js"></script>
     <script src="js/script.js"></script>
+
+
+    <script>
+        function clickHandler(id) {
+            console.log(id);
+
+            var requestOptions = {
+                method: 'DELETE',
+                redirect: 'follow'
+            };
+
+            fetch("https://byte-pypers.herokuapp.com/delete/" + id, requestOptions)
+                .then(response => response.text())
+                .then(result => console.log(result))
+                .catch(error => console.log('error', error));
+        }
+    </script>
 </body>
 
 </html>
