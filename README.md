@@ -1,4 +1,4 @@
-**All Readme commits have been removed for the sake of verification.Please head over to the invidual branches to check for our commit histories.**
+**All Readme commits have been removed for the sake of verification.PLEASE HEAD OVER TO OUR INDIVIDUAL BRANCHES TO CHECK THE COMMIT HISTORIES, due to some strange reasons we are NOT able to generate a PULL REQUEST.**
 
 # 🤖BYTE-PYPERS-HAB59💻
 # HACK ATMANIRBHAR BHARAT 59 - Hackathon(9th-18th August)
